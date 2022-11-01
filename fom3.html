@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+
+        body{
+    background-color:  #CEC8C6;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+.area_login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:whitesmoke;
+    width: 355px;
+    height: 500px;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px #3B3837;
+}
+.login form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   
+}
+.login input{
+    margin-top: 10px;
+    background-color: #DCDCDC;
+    border: none;
+    height: 45px;
+    outline: none;
+    border-radius: 8px;
+    color: #cbd0f7;
+    padding-left: 10px;
+}
+
+
+.login img{
+    width: 65px;
+    height: auto;
+}
+
+input::placeholder{
+    color: black;
+    font-size: 14px;
+   
+}
+
+
+    </style>
+    <section class="area_login">
+        <div class="login">
+            <div>
+            <img src="apae_foto.png">
+            </div>
+    <form name="form3" action="conexão3.php" form method="post">
+     
+            <input type="text" name="nome" placeholder="Nome completo" autofocus required style="color:black ;">
+            <input type="text" name="email" placeholder="E-mail" autofocus required style="color:black;">
+            <input type="text" name="telefone" placeholder="Telefone para contato" autofocus required style="color:black;">
+            <input type="password" name="senha" placeholder="Senha" autofocus required style="color:black;">
+            <input type="date" name="datadenascimento" placeholder="Data de nascimento" autofocus required style="color:black;">
+            <input type="text" name="CPF" placeholder="CPF" autofocus required style="color:black ;">
+            <input type="text" name="endereço" placeholder="Endereço" autofocus required style="color:black ;">
+            <br>
+            
+                <button type="submit" value="entrar" style=" display: block;
+                background-color: #2485d2;
+                font-size: 20px;
+                text-transform: uppercase;
+                font-weight: bold;
+                cursor: pointer;
+                border: #2485d2;
+                height: 36px;
+                border-radius: 5px;">Entrar</button>
+
+       
+    </form>
+</div>
+</section>
+</body>
+</html>

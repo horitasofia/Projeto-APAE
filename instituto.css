@@ -180,6 +180,7 @@
 }
 .carousel-inner{
     width: 100%;
+    background-image:url(bg_banners.png);
    
 }
 
